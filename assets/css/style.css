@@ -247,11 +247,137 @@ footer a {
         font-family: Poppins, 'Helvetica Neue', sans-serif;
         font-size: 1.4rem;
         line-height: 1.5;
-        padding: 15px;
+        padding: 0.5em;
         background-image: url('../img/sfondo.png');
         background-position: center center;
-
+margin: 0;
     }
     * {box-sizing: border-box;}
     hr {display: none;}
+    /* header */
+    header {
+        background: rgb(0,160,198);
+        background: linear-gradient(180deg, rgba(0,160,198,1) 0%, rgba(3,109,134,1) 68%);
+      height: 100%;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: white;
+        box-shadow: 0 3px 3px #444;
+        margin-bottom: 1.5em;
+        padding: 0.7em 0.5em;
+        display: block;
+        text-align: center;
+    }
+    header div p {
+    display: block;
+    padding:  0;
+    position: relative;
+    font-size: 1rem;
+    padding-top: 10px;
+    }
+    header div {
+        width: 55%;
+    margin: 0 auto;
+      position: relative;
+        float: none; 
+    }
+    header div img {
+       height: 30px;
+       display: block;
+    width: 100%;
+    }
+    header nav {
+      padding: 0;
+        display: block;
+      margin: 0;
+    }
+    header nav ul {
+        margin: 0;
+       
+    }
+    header nav li {
+        list-style: none;
+        display: inline-block;
+        padding: 0 2px;
+        font-size: 1rem;
+    }
+    header nav li a {
+        color: white;
+        text-decoration: none;
+    }
+    header nav li a:hover {
+        color: red;
+    }
+    header nav li a::before {
+        content: "\22c6\0020";
+    }
+    /* main */
+main {
+    padding: 20px 10px;
+}
+table {
+    width: 80%;
+    margin: 1em 0.1em;
+    font-size: 1rem;
+}
+tr,th {
+    font-size: 1rem;
+}
+p, address, ul, ol, dl, blockquote,h2 {
+    margin-bottom: 1.2em;
+    font-weight: 500;
+    font-size: 0.5em;
+}
+article h1 {
+font-size: 1.7rem;   
+width: 60%;
+}
+iframe {
+    display: block;
+    width: 100%;
+    height: 40%;
+}
+/* section */
+button {
+    width: 20%;
+    height: 20%;
+    font-size: 1rem;
+}
+input {
+    width: 40%;
+    height: 20%;
+    font-size: 1rem;
+}
+section p {
+font-size: 1rem;
+}
+section {
+    width: 100%;
+ display: block;
+ position: relative;
+}
+/* aside */
+aside h2{
+    font-size: 1rem;
+    margin: 10px;
+}
+aside div {
+display: block;
+width: 100%;
+}
+aside a,p {
+font-size: 1rem ;
+}
+/* footer */
+footer p {
+font-size: 1em;
+}
+footer {
+    padding: 10px;
+}
+footer address {
+    padding: 0px;
+    font-size: 1em;
+    width: 100%;
+}
 }
